@@ -11,7 +11,7 @@ set(SOURCE_FILES
         PointTests.h
         PointTests.cpp
         ErrorContext.cpp
-        ErrorContext.h Point.cpp area.cpp)
+        ErrorContext.h)
 
 
 add_executable(ucd_csci2312_pa1 ${SOURCE_FILES} Point.cpp)
