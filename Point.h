@@ -1,5 +1,6 @@
 // A 3-dimensional point class!
 // Coordinates are double-precision floating point.
+//Added the member function called disatnceTo
 
 #ifndef __POINT_H
 #define __POINT_H
@@ -8,7 +9,7 @@ class Point {
     
 private:
     //three points
-    double x, y, z;
+    double __x, __y, __z;
 
 public:
     // Constructors
@@ -25,6 +26,9 @@ public:
     double getX() const;
     double getY() const;
     double getZ() const;
+
+    //member function called disatnceTo
+    double distanceTo(const Point &otherPoint) const;
     
 };
 
