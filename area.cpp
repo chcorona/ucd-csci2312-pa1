@@ -3,7 +3,6 @@
 //
 #include <cmath>
 #include "Point.h"
-#include "PointTests.h"
 
 double computeArea(const Point &a, const Point &b, const Point &c)
 {
