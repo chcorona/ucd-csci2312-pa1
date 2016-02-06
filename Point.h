@@ -29,7 +29,9 @@ public:
 
     //member function called disatnceTo
     double distanceTo(const Point &otherPoint) const;
-    
+
+    // Destructor
+    ~Point();
 };
 
 #endif // __POINT_H

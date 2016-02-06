@@ -58,6 +58,11 @@
                     (__z - otherPoint.__z)*(__z - otherPoint.__z));
     }
 
+// Destructor
+    Point::~Point()
+    {
+        //deleted
+    }
 
 
 
