@@ -53,9 +53,9 @@
 //member function called disatnceTo
     double Point::distanceTo(const Point &otherPoint) const
     {
-        return sqrt((__x - otherPoint.__x)*(__x - otherPoint.__x) +
-                    (__y - otherPoint.__y)*(__y - otherPoint.__y) +
-                    (__z - otherPoint.__z)*(__z - otherPoint.__z));
+        return sqrt((__x - otherPoint.getX())*(__x - otherPoint.getX()) +
+                    (__y - otherPoint.getY())*(__y - otherPoint.getY()) +
+                    (__z - otherPoint.getZ())*(__z - otherPoint.getZ()));
     }
 
 // Destructor
